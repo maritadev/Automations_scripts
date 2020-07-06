@@ -61,7 +61,7 @@ if continuar == 'si':
         print("Se va a gregar el nombre del comando o script al principio de cada linea del fichero rutas.txt y "
               "al final el directorio que vas a indicar a continuacion. ")
 
-        home = '/home/movimiento_datos/emi'
+        home = '/local/local/user'
 
         if (len(sys.argv) > 1):
             print('Archivo tablas: ' + sys.argv[1])  # -- Para ver si se han pasado valores por parametro.
